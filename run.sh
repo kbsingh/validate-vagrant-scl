@@ -44,6 +44,6 @@ if [ $? -eq 0 ]; then
   git clone https://github.com/CentOS/sig-core-t_functional ~/sync
   cp Vagrantfile ~/sync/
   chmod u+x ./vagrant_test.sh
-  scl enable vagrant1 ./vagrant_test.sh
+  scl enable sclo-vagrant1 ./vagrant_test.sh
   exit $?
 fi
