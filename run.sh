@@ -14,15 +14,15 @@ baseurl=http://cbs.centos.org/repos/sclo7-sclo-vagrant1-sclo-candidate/x86_64/os
 gpgcheck=0
 enabled=1
 
-[sclo7-ruby200-rh-candidate]
-name=sclo7-ruby200-rh-candidate
-baseurl=http://cbs.centos.org/repos/sclo7-ruby200-rh-candidate/x86_64/os/
+[sclo7-rh-ruby22-rh-candidate]
+name=sclo7-rh-ruby22-rh-candidate
+baseurl=http://cbs.centos.org/repos/sclo7-rh-ruby22-rh-candidate/x86_64/os/
 enabled=1
 gpgcheck=0
 
-[sclo7-ror40-rh-candidate]
-name=sclo7-ror40-rh-candidate
-baseurl=http://cbs.centos.org/repos/sclo7-ror40-rh-candidate/x86_64/os/
+[sclo7-rh-ror41-rh-candidate]
+name=sclo7-rh-ror41-rh-candidate
+baseurl=http://cbs.centos.org/repos/sclo7-rh-ror41-rh-candidate/x86_64/os/
 enabled=1
 gpgcheck=0
 
