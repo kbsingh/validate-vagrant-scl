@@ -36,7 +36,7 @@ if [ $? -ne 0 ]; then
   exit 1
 fi
 
-yum -y install vagrant1 rsync
+yum -y install sclo-vagrant1 rsync
 
 if [ $? -eq 0 ]; then
   service libvirtd start
