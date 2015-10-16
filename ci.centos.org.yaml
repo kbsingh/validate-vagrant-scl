@@ -1,0 +1,10 @@
+- project:
+    name: kbsingh-validate_vagrant
+    centos_ver: 7
+    centos_arch: x86_64
+    jobname: validate_vagrant
+    ci-project: kbsingh
+    git_url: https://github.com/kbsingh/validate-vagrant-scl
+    jobs:
+        - ci.centos.org-rundotsh-job
+    rundotshargs:
